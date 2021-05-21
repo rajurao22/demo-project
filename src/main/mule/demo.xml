@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="demoFlow" doc:id="113f063a-2cf6-450f-a712-fbb22bafdade" >
+		<logger level="INFO" doc:name="Logger" doc:id="e56ff70c-c4a5-42b5-8dd3-98f8a68369c5" />
+	</flow>
+</mule>
